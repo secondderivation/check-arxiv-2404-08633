@@ -1,0 +1,13 @@
+{
+  "model": "Flat ΛCDM, late-time only: E(z)^2 = Ωm (1+z)^3 + 1 - Ωm. No radiation, no curvature, no neutrino mass split (as printed in Eq. (2), TeX l.222).",
+  "w0wa": "CPL, w(a) = w0 + wa (1 - a) (TeX l.139). E(z)^2 = Ωm (1+z)^3 + (1-Ωm) (1+z)^{3(1+w0+wa)} exp(-3 wa z/(1+z)). Flat.",
+  "distances": "D_M = (c/H0) ∫0^z dz'/E(z'), D_H = c/H(z) (Eq. 1, TeX l.154). D_V = (z D_M^2 D_H)^{1/3} (DESI definition; paper does not print it).",
+  "units": "c = 299792.458 km/s. H0 r_d in km/s; Tables I-II print H0 r_d / (100 km/s).",
+  "parameters": "Ωm is the present-day total matter density fraction in the flat model above. H0 r_d is a single free combination (paper l.156).",
+  "priors_paper": "MCMC: Ωm uniform in [0,1], H0 r_d uniform in [0, 20000] km/s (l.156). w0waCDM: w0 in [-3,1], wa in [-3,2], w0+wa<0 (l.267). Ratio method: no prior on Ωm (l.225).",
+  "intervals": "Tables I, II: 68% credible intervals (MCMC). Table III: 15.9 and 84.1 percentiles of Monte Carlo Ωm samples; the text says 'mean' for the central value (l.225); we report both mean and median.",
+  "sigma_conversion": "Inferred, to be verified in C6: tension between two numbers = |Δ| / sqrt(σ1^2 + σ2^2) with the error on the facing side. p to σ: one-sided Gaussian (p = 0.0147 -> 2.18σ one-sided, 2.44σ two-sided; the paper says 2.2σ).",
+  "data_paper": "DESI 2024 VI (arXiv:2404.03002) Table 1: D_M/r_d, D_H/r_d, correlation r per bin; isotropic D_V/r_d for BGS (z=0.30) and QSO (z=1.49). The footnote at l.212 implies the fits used the 2-decimal z_eff of DESI v1.",
+  "data_ours": "DESI DR1 Gaussian BAO likelihood files (CobayaSampler/bao_data, desi_2024_gaussian_bao_ALL_GCcomb_{mean,cov}.txt; 3-decimal z_eff, unrounded means, full covariance). DR2: desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_{mean,cov}.txt. Hashes in data/SHA256SUMS.txt.",
+  "external_omegam": "Paper's comparison values (l.158, l.212): Planck 0.315±0.007, Pantheon+ 0.334±0.018, Union3 0.356 +0.028 -0.026, DES 0.352±0.017. Taken as printed, not re-derived."
+}

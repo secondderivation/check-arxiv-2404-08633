@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Cite the original paper first. If you use this check, cite it as below."
+title: "Check of arXiv:2404.08633v3: Does DESI 2024 Confirm ΛCDM?"
+version: "0.1.0"
+authors:
+  - name: "Second Derivation"
+license: BSD-3-Clause
+references:
+  - type: article
+    title: "Does DESI 2024 Confirm ΛCDM?"
+    authors:
+      - name: "E. Ó Colgáin"
+      - name: "M. G. Dainotti"
+      - name: "S. Capozziello"
+      - name: "S. Pourojaghi"
+      - name: "M. M. Sheikh-Jabbari"
+      - name: "D. Stojkovic"
+    identifiers:
+      - type: url
+        value: "https://arxiv.org/abs/2404.08633v3"
+      - type: doi
+        value: "10.1016/j.jheap.2025.100428"

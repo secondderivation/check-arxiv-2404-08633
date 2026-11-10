@@ -1,0 +1,11 @@
+{
+  "id": "C4",
+  "kind": "numeric",
+  "location": "Table I, TeX l.167-185; priors l.156",
+  "method": "independent 2-parameter posterior (grid and MCMC) per bin, priors as printed; repeat with the Ωm prior widened to test 'neither prior impacts our results'",
+  "text": "MCMC (Ωm, H0 r_d) per anisotropic bin, e.g. LRG 0.51: Ωm = 0.67 +0.18 -0.17, H0 r_d = 88.3 +5.7 -4.8 (×100 km/s); priors Ωm∈[0,1], H0 r_d∈[0,20000] do not affect results.",
+  "rests_on": "Abstract number Ωm = 0.67; Fig. 1",
+  "revision": 1,
+  "version": 3,
+  "committed_before_run": true
+}

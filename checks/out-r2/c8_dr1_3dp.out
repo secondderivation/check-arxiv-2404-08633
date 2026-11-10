@@ -1,0 +1,5 @@
+C8 dr1 z3dp [with LRG z=0.51] n=12 max quad-err=8.9e-16 4x32 walkers, steps=20000 burn=5000 | Om = 0.350 +0.031 -0.044; w0 = -0.493 +0.256 -0.385; wa = -1.941 +1.430 -0.779; H0rd = 9580.220 +509.955 -385.232 | P(w0>-1)=0.906 | P(wa<-2.8)=0.116
+   Om:Rhat=1.0030,tau=103,N/tau=194,ens-median-spread=0.0007 w0:Rhat=1.0016,tau=91,N/tau=220,ens-median-spread=0.0077 wa:Rhat=1.0013,tau=98,N/tau=203,ens-median-spread=0.0291 H0rd:Rhat=1.0036,tau=86,N/tau=232,ens-median-spread=8.5920
+C8 dr1 z3dp [without LRG z=0.51] n=10 max quad-err=8.9e-16 4x32 walkers, steps=20000 burn=5000 | Om = 0.309 +0.044 -0.048; w0 = -0.884 +0.414 -0.424; wa = -0.957 +1.623 -1.422; H0rd = 10176.209 +681.031 -578.368 | P(w0>-1)=0.599 | P(wa<-2.8)=0.052
+   Om:Rhat=1.0044,tau=114,N/tau=175,ens-median-spread=0.0016 w0:Rhat=1.0031,tau=99,N/tau=202,ens-median-spread=0.0176 wa:Rhat=1.0036,tau=107,N/tau=187,ens-median-spread=0.0703 H0rd:Rhat=1.0038,tau=98,N/tau=204,ens-median-spread=21.0999
+C8 dr1: removing the z=0.51 bin moves median w0 by -0.391; -1 inside 68% without it: True

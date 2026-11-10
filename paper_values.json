@@ -1,0 +1,272 @@
+{
+  "_source": "Transcribed from src-v3/JHEAP_submission.tex (sha256 80bbe810…); line numbers in keys' 'at'. Values as (central, +err, -err).",
+  "table1_mcmc": {
+    "at": "l.173-181",
+    "rows": [
+      {
+        "tracer": "LRG",
+        "z": 0.51,
+        "H0rd100": [
+          88.3,
+          5.7,
+          4.8
+        ],
+        "Om": [
+          0.67,
+          0.18,
+          0.17
+        ]
+      },
+      {
+        "tracer": "LRG",
+        "z": 0.71,
+        "H0rd100": [
+          109.4,
+          6.1,
+          6.1
+        ],
+        "Om": [
+          0.219,
+          0.087,
+          0.069
+        ]
+      },
+      {
+        "tracer": "LRG+ELG",
+        "z": 0.93,
+        "H0rd100": [
+          102.2,
+          4.1,
+          4.0
+        ],
+        "Om": [
+          0.276,
+          0.053,
+          0.047
+        ]
+      },
+      {
+        "tracer": "ELG",
+        "z": 1.32,
+        "H0rd100": [
+          97.8,
+          7.7,
+          8.0
+        ],
+        "Om": [
+          0.345,
+          0.11,
+          0.078
+        ]
+      },
+      {
+        "tracer": "Lya QSO",
+        "z": 2.33,
+        "H0rd100": [
+          92.8,
+          7.6,
+          7.5
+        ],
+        "Om": [
+          0.375,
+          0.088,
+          0.069
+        ]
+      }
+    ]
+  },
+  "table2_binned": {
+    "at": "l.198-204",
+    "rows": [
+      {
+        "bin": "0.1<z<0.6",
+        "H0rd100": [
+          96.1,
+          3.8,
+          3.9
+        ],
+        "Om": [
+          0.459,
+          0.12,
+          0.098
+        ]
+      },
+      {
+        "bin": "0.6<z<1.1",
+        "H0rd100": [
+          106.8,
+          3.1,
+          3.1
+        ],
+        "Om": [
+          0.231,
+          0.036,
+          0.033
+        ]
+      },
+      {
+        "bin": "1.1<z<4.16",
+        "H0rd100": [
+          98.6,
+          4.3,
+          4.3
+        ],
+        "Om": [
+          0.324,
+          0.044,
+          0.038
+        ]
+      }
+    ],
+    "shifts_sigma": {
+      "bin1_to_bin2": 2.2,
+      "bin2_to_bin3": 1.8
+    }
+  },
+  "table3_ratio": {
+    "at": "l.233-239",
+    "rows": [
+      {
+        "tracer": "LRG",
+        "z": 0.51,
+        "Om": [
+          0.65,
+          0.21,
+          0.17
+        ]
+      },
+      {
+        "tracer": "LRG",
+        "z": 0.71,
+        "Om": [
+          0.21,
+          0.082,
+          0.068
+        ]
+      },
+      {
+        "tracer": "LRG+ELG",
+        "z": 0.93,
+        "Om": [
+          0.268,
+          0.052,
+          0.045
+        ]
+      },
+      {
+        "tracer": "ELG",
+        "z": 1.32,
+        "Om": [
+          0.33,
+          0.1,
+          0.076
+        ]
+      },
+      {
+        "tracer": "Lya QSO",
+        "z": 2.33,
+        "Om": [
+          0.362,
+          0.084,
+          0.066
+        ]
+      }
+    ]
+  },
+  "pvalue": {
+    "at": "l.245",
+    "n": 50000,
+    "threshold": 0.322,
+    "p": 0.0147,
+    "sigma": 2.2
+  },
+  "full_sample": {
+    "at": "l.212-214",
+    "all": {
+      "Om": [
+        0.29,
+        0.015,
+        0.014
+      ],
+      "mle": 0.289
+    },
+    "no_lrg051": {
+      "Om": [
+        0.287,
+        0.016,
+        0.015
+      ],
+      "mle": 0.286
+    },
+    "desi_reported_Om": {
+      "value": 0.295,
+      "note": "Not printed in this paper (it says 'slightly lower than Table 3 of the DESI paper'). Value is DESI 2404.03002 Table 3 (DESI alone, flat ΛCDM, 0.295±0.015) verified during package audit against the DESI paper abstract and Table 3."
+    }
+  },
+  "tensions": {
+    "at": "l.158, l.212, l.214",
+    "lrg051_vs": {
+      "Planck": 2.1,
+      "Pantheon+": 2.0
+    },
+    "all_vs": {
+      "Planck": 1.5,
+      "Pantheon+": 1.9,
+      "Union3": 2.2,
+      "DES": 2.7
+    },
+    "no_lrg051_vs": {
+      "DES": 2.8
+    }
+  },
+  "external_Om": {
+    "Planck": [
+      0.315,
+      0.007,
+      0.007
+    ],
+    "Pantheon+": [
+      0.334,
+      0.018,
+      0.018
+    ],
+    "Union3": [
+      0.356,
+      0.028,
+      0.026
+    ],
+    "DES": [
+      0.352,
+      0.017,
+      0.017
+    ]
+  },
+  "w0wa": {
+    "at": "l.267-269",
+    "priors": {
+      "w0": [
+        -3,
+        1
+      ],
+      "wa": [
+        -3,
+        2
+      ],
+      "w0_plus_wa_max": 0
+    },
+    "with_lrg051": {
+      "w0": [
+        -0.56,
+        0.27,
+        0.38
+      ]
+    },
+    "without_lrg051": {
+      "w0": [
+        -0.98,
+        0.43,
+        0.42
+      ]
+    }
+  }
+}

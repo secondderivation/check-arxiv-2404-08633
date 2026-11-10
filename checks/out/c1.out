@@ -1,0 +1,16 @@
+C1 derived ratio (I = ∫0^z dz'/E): sqrt(Omega_m*z**3 + 3*Omega_m*z**2 + 3*Omega_m*z + 1)*I(z)
+C1 equals Eq.(2) printed form E(z)*I: True
+C1 depends on H0, r_d, c: False
+C1 limit Om=0: z  equals z: True
+C1 limit Om=1: 2*(z + 1)*(sqrt(z + 1) - 1)  equals 2[(1+z)^{3/2}-(1+z)]: True
+C1 small-z series: z*(3*Omega_m*z + 4)/4 -> ratio -> z as z -> 0, Om enters at O(z^2)
+C1 z=0.51: Om > -0.4093 keeps E^2>0; ratio is increasing in Om on [-0.4093, 3]; ratio(Om_min)=0.00141, ratio(0)=0.51000, ratio(0.315)=0.59363, ratio(1)=0.69104, ratio(3)=0.81201; d ratio/d Om at 0.315 = 0.2037
+C1 z=0.706: Om > -0.2522 keeps E^2>0; ratio is increasing in Om on [-0.2522, 3]; ratio(Om_min)=0.00242, ratio(0)=0.70600, ratio(0.315)=0.87748, ratio(1)=1.04455, ratio(3)=1.22870; d ratio/d Om at 0.315 = 0.3772
+C1 z=0.93: Om > -0.1616 keeps E^2>0; ratio is increasing in Om on [-0.1616, 3]; ratio(Om_min)=0.00389, ratio(0)=0.93000, ratio(0.315)=1.24472, ratio(1)=1.50248, ratio(3)=1.76184; d ratio/d Om at 0.315 = 0.6200
+C1 z=1.317: Om > -0.0874 keeps E^2>0; ratio is increasing in Om on [-0.0874, 3]; ratio(Om_min)=0.00724, ratio(0)=1.31700, ratio(0.315)=1.98778, ratio(1)=2.41973, ratio(3)=2.81467; d ratio/d Om at 0.315 = 1.1149
+C1 z=2.33: Om > -0.0278 keeps E^2>0; ratio is increasing in Om on [-0.0278, 3]; ratio(Om_min)=0.02160, ratio(0)=2.33000, ratio(0.315)=4.54634, ratio(1)=5.49336, ratio(3)=6.27444; d ratio/d Om at 0.315 = 2.6484
+C1 control z=0.51: solved Om=0.3000000000 residual=-1.11e-16
+C1 control z=0.706: solved Om=0.3000000000 residual=-1.11e-16
+C1 control z=0.93: solved Om=0.3000000000 residual=-2.22e-16
+C1 control z=1.317: solved Om=0.3000000000 residual=-2.22e-16
+C1 control z=2.33: solved Om=0.3000000000 residual=8.88e-16

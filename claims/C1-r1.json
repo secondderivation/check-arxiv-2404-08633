@@ -1,0 +1,11 @@
+{
+  "id": "C1",
+  "kind": "analytic",
+  "location": "Eq. (2), TeX l.218-222",
+  "method": "re-derive symbolically (G6); limits (G9); prove the ratio is monotonic in Ωm so the inversion is unique; map the range of reachable ratios",
+  "text": "(D_M/r_d)/(D_H/r_d) = E(z) ∫0^z dz'/E(z') depends only on Ωm in flat ΛCDM and can be solved for Ωm.",
+  "rests_on": "Table III and the p-value (C2, C3)",
+  "revision": 1,
+  "version": 3,
+  "committed_before_run": true
+}

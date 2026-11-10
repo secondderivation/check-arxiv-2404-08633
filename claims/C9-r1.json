@@ -1,0 +1,11 @@
+{
+  "id": "C9",
+  "kind": "inference",
+  "location": "TeX l.214",
+  "method": "scope check (G17, G20): does the evidence shown support the sentence; within-DESI test of constant Ωm (χ² of a constant-Ωm fit across the 7 bins, and the C7 shifts) compared with the cross-dataset 2.8σ",
+  "text": "'Evidently, the working assumption that Ωm is a constant in the ΛCDM Universe is under pressure at close to 3σ.'",
+  "rests_on": "Discussion framing; not in the abstract",
+  "revision": 1,
+  "version": 3,
+  "committed_before_run": true
+}

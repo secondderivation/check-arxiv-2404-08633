@@ -1,0 +1,14 @@
+C6 printed LRG0.51 Om vs Planck: 2.09 sigma (paper ~2.1) PASS
+C6 printed LRG0.51 Om vs Pantheon+: 1.97 sigma (paper ~2.0) PASS
+C6 printed all-DESI Om vs Planck: 1.51 sigma (paper ~1.5) PASS
+C6 printed all-DESI Om vs Pantheon+: 1.88 sigma (paper ~1.9) PASS
+C6 printed all-DESI Om vs Union3: 2.20 sigma (paper ~2.2) PASS
+C6 printed all-DESI Om vs DES: 2.73 sigma (paper ~2.7) PASS
+C6 printed no-LRG0.51 Om vs DES: 2.78 sigma (paper ~2.8) PASS
+C6 refit LRG0.51 Om=0.6588 +0.1811 -0.1653: Planck 2.078σ vs 2.1 (Δ -0.022) PASS, Pantheon+ 1.954σ vs 2.0 (Δ -0.046) PASS
+C6 ours 2-dp z all-DESI Om=0.2891: Planck 1.59σ, Pantheon+ 1.93σ, Union3 2.24σ, DES 2.80σ
+   verdict: Planck 1.594σ vs 1.5 (Δ +0.094) PASS, Pantheon+ 1.934σ vs 1.9 (Δ +0.034) PASS, Union3 2.241σ vs 2.2 (Δ +0.041) PASS, DES 2.802σ vs 2.7 (Δ +0.102) FAIL
+C6 ours 2-dp z no-LRG0.51 Om=0.2858: Planck 1.68σ, Pantheon+ 2.01σ, Union3 2.31σ, DES 2.85σ
+   verdict: DES 2.848σ vs 2.8 (Δ +0.048) PASS
+C6 ours 3-dp z all-DESI Om=0.2946: Planck 1.24σ, Pantheon+ 1.68σ, Union3 2.05σ, DES 2.53σ
+C6 ours 3-dp z no-LRG0.51 Om=0.2931: Planck 1.23σ, Pantheon+ 1.68σ, Union3 2.05σ, DES 2.50σ

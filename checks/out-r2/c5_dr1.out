@@ -1,0 +1,9 @@
+C5 dr1 [3-dp z, with z=0.51, n=12] Om = 0.2946 +0.0150 -0.0142, MLE 0.2938, H0rd = 10188.8 +126.4 -126.6, chi2min = 12.74
+C5 dr1 [3-dp z, without z=0.51, n=10] Om = 0.2931 +0.0164 -0.0154, MLE 0.2922, H0rd = 10189.7 +147.1 -147.2, chi2min = 6.67
+C5 dr1 [2-dp z, with z=0.51, n=12] Om = 0.2891 +0.0146 -0.0138, MLE 0.2886, H0rd = 10245.9 +126.0 -126.2, chi2min = 13.56
+C5 dr1 [2-dp z, without z=0.51, n=10] Om = 0.2858 +0.0159 -0.0149, MLE 0.2850, H0rd = 10269.3 +146.6 -146.6, chi2min = 7.44
+C5 check all [2-dp z]: ours 0.2891 +0.0146 -0.0138 MLE 0.2886 vs paper 0.29 +0.015 -0.014 MLE 0.289: PASS
+C5 check all [3-dp z]: ours 0.2946 +0.0150 -0.0142 MLE 0.2938 vs paper 0.29 +0.015 -0.014 MLE 0.289: FAIL
+C5 check no_lrg051 [2-dp z]: ours 0.2858 +0.0159 -0.0149 MLE 0.2850 vs paper 0.287 +0.016 -0.015 MLE 0.286: PASS
+C5 check no_lrg051 [3-dp z]: ours 0.2931 +0.0164 -0.0154 MLE 0.2922 vs paper 0.287 +0.016 -0.015 MLE 0.286: FAIL
+C5 footnote: Om(3-dp z) - Om(2-dp z) = +0.0054; paper needs +0.0025..+0.01 to explain 0.290 vs DESI 0.295: PASS

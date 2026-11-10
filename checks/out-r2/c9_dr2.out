@@ -1,0 +1,7 @@
+C9 dr2 [3-dp z] global flat-ΛCDM fit: chi2min=10.27, dof=11, PTE=0.506 -> 0.66 sigma (two-sided equivalent)
+   nested [Om in (0,1)] (a) 3 Om, common H0rd: Δχ² = 1.044 for 2 extra parameters, p = 0.593 (0.53 sigma two-sided equivalent); fitted Om=[0.2933, 0.3040, 0.2972], H0rd=10137.5
+   nested [Om in (0,1)] (b) 3 (Om, H0rd) pairs: Δχ² = 3.839 for 4 extra parameters, p = 0.428 (0.79 sigma two-sided equivalent); fitted Om=[0.3575, 0.2794, 0.2964], H0rd=[9863.3420, 10326.3628, 10147.2627]
+   nested [Om in (0,1)] null: χ²min = 10.271, Om=0.2975, H0rd=10154.0
+   nested [Om in (-0.25,3), E^2>0] (a) 3 Om, common H0rd: Δχ² = 1.044 for 2 extra parameters, p = 0.593 (0.53 sigma two-sided equivalent); fitted Om=[0.2933, 0.3040, 0.2972], H0rd=10137.5
+   nested [Om in (-0.25,3), E^2>0] (b) 3 (Om, H0rd) pairs: Δχ² = 3.839 for 4 extra parameters, p = 0.428 (0.79 sigma two-sided equivalent); fitted Om=[0.3575, 0.2794, 0.2964], H0rd=[9863.3420, 10326.3628, 10147.2627]
+   nested [Om in (-0.25,3), E^2>0] null: χ²min = 10.271, Om=0.2975, H0rd=10154.0

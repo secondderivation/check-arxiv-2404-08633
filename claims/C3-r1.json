@@ -1,0 +1,11 @@
+{
+  "id": "C3",
+  "kind": "numeric",
+  "location": "TeX l.245, Fig. 3 caption l.251",
+  "method": "50,000-sample Monte Carlo; count Ωm < 0.322; convert p to σ (one- and two-sided)",
+  "text": "p = 0.0147 of Ωm < 0.322 (Planck 68% upper bound) at z=0.51; disagreement 'no less than 2.2σ'.",
+  "rests_on": "The '~2σ discrepancy' of the abstract",
+  "revision": 1,
+  "version": 3,
+  "committed_before_run": true
+}

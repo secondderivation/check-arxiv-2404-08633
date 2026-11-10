@@ -1,0 +1,7 @@
+C8 dr2 z3dp [with LRG z=0.51] n=13 max quad-err=8.9e-16 4x32 walkers, steps=20000 burn=5000 | Om = 0.359 +0.026 -0.038; w0 = -0.434 +0.231 -0.325; wa = -1.853 +1.180 -0.793; H0rd = 9407.229 +393.909 -280.849 | P(w0>-1)=0.964 | P(wa<-2.8)=0.090
+   Om:Rhat=1.0048,tau=113,N/tau=178,ens-median-spread=0.0004 w0:Rhat=1.0044,tau=94,N/tau=213,ens-median-spread=0.0031 wa:Rhat=1.0031,tau=100,N/tau=200,ens-median-spread=0.0144 H0rd:Rhat=1.0055,tau=92,N/tau=218,ens-median-spread=2.4328 | max Rhat < 1.01: PASS
+   chains: chains/c8_dr2_3dp_all.npz sha256 bcaae3e42c0817273efe73b59ac3cafb025b25efeaf561a450ba75bf8b338c9d
+C8 dr2 z3dp [without LRG z=0.51] n=11 max quad-err=8.9e-16 4x32 walkers, steps=20000 burn=5000 | Om = 0.351 +0.027 -0.042; w0 = -0.460 +0.243 -0.375; wa = -1.869 +1.344 -0.811; H0rd = 9517.604 +458.128 -306.835 | P(w0>-1)=0.929 | P(wa<-2.8)=0.100
+   Om:Rhat=1.0083,tau=116,N/tau=172,ens-median-spread=0.0012 w0:Rhat=1.0051,tau=95,N/tau=211,ens-median-spread=0.0092 wa:Rhat=1.0070,tau=105,N/tau=191,ens-median-spread=0.0310 H0rd:Rhat=1.0052,tau=95,N/tau=211,ens-median-spread=12.0102 | max Rhat < 1.01: PASS
+   chains: chains/c8_dr2_3dp_no_lrg051.npz sha256 5e0a5248cdb3e3cc0393fd8b3e810b892e24da753b3fd9fb1de30011ef4f150b
+C8 dr2: removing the z=0.51 bin moves median w0 by -0.026; -1 inside 68% without it: False

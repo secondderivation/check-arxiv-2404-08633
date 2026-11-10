@@ -1,0 +1,6 @@
+N1 printed prior: Om=0.6588 +0.1811 -0.1653; facing-error Planck discrepancy=2.078 sigma
+N1 wide prior: Om=0.6819 +0.2287 -0.1785; facing-error Planck discrepancy=2.054 sigma
+N4 definitions: alpha_parallel=(DH/rd)/(DH_fid/rd_fid); alpha_perp=(DM/rd)/(DM_fid/rd_fid)
+N4 DESI convention: alpha_AP=alpha_parallel/alpha_perp
+N4 therefore alpha_AP=(DH/DM)/(DH_fid/DM_fid), and DM/DH=(DM_fid/DH_fid)/alpha_AP
+N4 this is a notation clarification; no distance equation or numerical fit is changed.

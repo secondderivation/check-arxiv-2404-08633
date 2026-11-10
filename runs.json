@@ -1,0 +1,69 @@
+[
+  {
+    "cmd": "python3 c1_ratio_algebra.py",
+    "out": "out/c1.out"
+  },
+  {
+    "cmd": "python3 c2c3_ratio_mc.py dr1",
+    "out": "out-r2/c2c3_dr1.out"
+  },
+  {
+    "cmd": "python3 c2c3_ratio_mc.py dr2",
+    "out": "out-r2/c2c3_dr2.out"
+  },
+  {
+    "cmd": "python3 c4_bins_grid.py",
+    "out": "out-r2/c4.out"
+  },
+  {
+    "cmd": "python3 c5_full.py dr1",
+    "out": "out-r2/c5_dr1.out"
+  },
+  {
+    "cmd": "python3 c5_full.py dr2",
+    "out": "out-r2/c5_dr2.out"
+  },
+  {
+    "cmd": "python3 c6_tensions.py",
+    "out": "out-r2/c6.out"
+  },
+  {
+    "cmd": "python3 c7_binned.py dr1",
+    "out": "out-r2/c7_dr1.out"
+  },
+  {
+    "cmd": "python3 c7_binned.py dr2",
+    "out": "out-r2/c7_dr2.out"
+  },
+  {
+    "cmd": "python3 c9_constancy.py dr1",
+    "out": "out-r2/c9_dr1.out"
+  },
+  {
+    "cmd": "python3 c9_constancy.py dr2",
+    "out": "out-r2/c9_dr2.out"
+  },
+  {
+    "cmd": "python3 c10_grid_refine.py",
+    "out": "out-r3/c10.out"
+  },
+  {
+    "cmd": "python3 c8_w0wa.py dr1 2",
+    "out": "out-r3/c8_dr1_2dp.out",
+    "slow": true
+  },
+  {
+    "cmd": "python3 c8_w0wa.py dr1",
+    "out": "out-r3/c8_dr1_3dp.out",
+    "slow": true
+  },
+  {
+    "cmd": "python3 c8_w0wa.py dr2",
+    "out": "out-r3/c8_dr2_3dp.out",
+    "slow": true
+  },
+  {
+    "cmd": "python3 notes.py",
+    "out": "out-r3/notes.out"
+  }
+]

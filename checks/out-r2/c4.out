@@ -1,0 +1,50 @@
+C4 z=0.51 [prior Om in [0,1]] MLE Om=0.6465 chi2min=8.17e-05
+   Om ours 0.6588 +0.1811 -0.1653 vs paper 0.67 +0.18 -0.17: Δ=-0.0112 (tol 0.0425) PASS; err ratios +1.01 -0.97 PASS
+   H0rd/100 ours 88.6278 +5.5027 -4.8654 vs paper 88.3 +5.7 -4.8: Δ=+0.3278 (tol 1.4250) PASS; err ratios +0.97 -1.01 PASS
+C4 z=0.51 [wide prior Om in (Om_min,3]] MLE Om=0.6468 chi2min=4.45e-06
+   Om ours 0.6819 +0.2287 -0.1785 vs paper 0.67 +0.18 -0.17: Δ=+0.0119 (tol 0.0450) PASS; err ratios +1.27 -1.05 FAIL
+   H0rd/100 ours 87.9523 +5.8146 -5.8380 vs paper 88.3 +5.7 -4.8: Δ=-0.3477 (tol 1.2000) PASS; err ratios +1.02 -1.22 FAIL
+C4 z=0.706 [prior Om in [0,1]] MLE Om=0.2215 chi2min=8.26e-05
+   Om ours 0.2343 +0.0895 -0.0720 vs paper 0.219 +0.087 -0.069: Δ=+0.0153 (tol 0.0217) PASS; err ratios +1.03 -1.04 PASS
+   H0rd/100 ours 108.0045 +6.0915 -6.0841 vs paper 109.4 +6.1 -6.1: Δ=-1.3955 (tol 1.5250) PASS; err ratios +1.00 -1.00 PASS
+C4 z=0.706 [wide prior Om in (Om_min,3]] MLE Om=0.2218 chi2min=1.48e-04
+   Om ours 0.2343 +0.0895 -0.0720 vs paper 0.219 +0.087 -0.069: Δ=+0.0153 (tol 0.0217) PASS; err ratios +1.03 -1.04 PASS
+   H0rd/100 ours 108.0046 +6.0916 -6.0841 vs paper 109.4 +6.1 -6.1: Δ=-1.3954 (tol 1.5250) PASS; err ratios +1.00 -1.00 PASS
+C4 z=0.93 [prior Om in [0,1]] MLE Om=0.2685 chi2min=8.02e-05
+   Om ours 0.2738 +0.0527 -0.0455 vs paper 0.276 +0.053 -0.047: Δ=-0.0022 (tol 0.0118) PASS; err ratios +0.99 -0.97 PASS
+   H0rd/100 ours 102.3752 +4.0608 -4.0495 vs paper 102.2 +4.1 -4.0: Δ=+0.1752 (tol 1.0250) PASS; err ratios +0.99 -1.01 PASS
+C4 z=0.93 [wide prior Om in (Om_min,3]] MLE Om=0.2686 chi2min=4.47e-04
+   Om ours 0.2738 +0.0527 -0.0455 vs paper 0.276 +0.053 -0.047: Δ=-0.0022 (tol 0.0118) PASS; err ratios +0.99 -0.97 PASS
+   H0rd/100 ours 102.3752 +4.0608 -4.0495 vs paper 102.2 +4.1 -4.0: Δ=+0.1752 (tol 1.0250) PASS; err ratios +0.99 -1.01 PASS
+C4 z=1.317 [prior Om in [0,1]] MLE Om=0.3355 chi2min=2.25e-06
+   Om ours 0.3537 +0.1102 -0.0833 vs paper 0.345 +0.11 -0.078: Δ=+0.0087 (tol 0.0275) PASS; err ratios +1.00 -1.07 PASS
+   H0rd/100 ours 97.1005 +8.0032 -7.8868 vs paper 97.8 +7.7 -8.0: Δ=-0.6995 (tol 2.0000) PASS; err ratios +1.04 -0.99 PASS
+C4 z=1.317 [wide prior Om in (Om_min,3]] MLE Om=0.3348 chi2min=1.65e-04
+   Om ours 0.3537 +0.1102 -0.0833 vs paper 0.345 +0.11 -0.078: Δ=+0.0087 (tol 0.0275) PASS; err ratios +1.00 -1.07 PASS
+   H0rd/100 ours 97.0991 +8.0039 -7.8892 vs paper 97.8 +7.7 -8.0: Δ=-0.7009 (tol 2.0000) PASS; err ratios +1.04 -0.99 PASS
+C4 z=2.33 [prior Om in [0,1]] MLE Om=0.3605 chi2min=5.71e-04
+   Om ours 0.3732 +0.0900 -0.0703 vs paper 0.375 +0.088 -0.069: Δ=-0.0018 (tol 0.0173) PASS; err ratios +1.02 -1.02 PASS
+   H0rd/100 ours 92.9505 +7.8010 -7.5573 vs paper 92.8 +7.6 -7.5: Δ=+0.1505 (tol 1.9000) PASS; err ratios +1.03 -1.01 PASS
+C4 z=2.33 [wide prior Om in (Om_min,3]] MLE Om=0.3599 chi2min=4.01e-04
+   Om ours 0.3732 +0.0900 -0.0703 vs paper 0.375 +0.088 -0.069: Δ=-0.0018 (tol 0.0173) PASS; err ratios +1.02 -1.02 PASS
+   H0rd/100 ours 92.9503 +7.8011 -7.5575 vs paper 92.8 +7.6 -7.5: Δ=+0.1503 (tol 1.9000) PASS; err ratios +1.03 -1.01 PASS
+C4-MCMC z=0.51 quad-err=4.4e-16 | grid Om 0.6589 +0.1812 -0.1653 (1x vs 2x grid max diff 5.9e-05) | MCMC Om 0.6561 +0.1812 -0.1641 | MCMC-grid median diff -0.0028
+   MCMC Om ours 0.6561 +0.1812 -0.1641 vs paper 0.67 +0.18 -0.17: Δ=-0.0139 (tol 0.0425) PASS; err ratios +1.01 -0.97 PASS
+   Om:Rhat=1.0028,tau=39,N/tau=255,ens-median-spread=0.0018 H0rd:Rhat=1.0034,tau=39,N/tau=255,ens-median-spread=5.9354
+   mock: grid MLE Om=0.30025; optimiser Om=0.300000000 H0rd=10000.0000 |Om-0.3|=6.5e-13 PASS (tolerance 1e-6); posterior median 0.3170 (not a criterion)
+C4-MCMC z=0.706 quad-err=2.2e-16 | grid Om 0.2343 +0.0895 -0.0720 (1x vs 2x grid max diff 2.3e-06) | MCMC Om 0.2346 +0.0896 -0.0723 | MCMC-grid median diff +0.0003
+   MCMC Om ours 0.2346 +0.0896 -0.0723 vs paper 0.219 +0.087 -0.069: Δ=+0.0156 (tol 0.0217) PASS; err ratios +1.03 -1.05 PASS
+   Om:Rhat=1.0030,tau=40,N/tau=247,ens-median-spread=0.0009 H0rd:Rhat=1.0028,tau=39,N/tau=258,ens-median-spread=6.9609
+   mock: grid MLE Om=0.29975; optimiser Om=0.300000000 H0rd=10000.0000 |Om-0.3|=4.0e-13 PASS (tolerance 1e-6); posterior median 0.3153 (not a criterion)
+C4-MCMC z=0.93 quad-err=3.3e-16 | grid Om 0.2738 +0.0527 -0.0455 (1x vs 2x grid max diff 3.1e-06) | MCMC Om 0.2735 +0.0529 -0.0456 | MCMC-grid median diff -0.0002
+   MCMC Om ours 0.2735 +0.0529 -0.0456 vs paper 0.276 +0.053 -0.047: Δ=-0.0025 (tol 0.0118) PASS; err ratios +1.00 -0.97 PASS
+   Om:Rhat=1.0043,tau=35,N/tau=287,ens-median-spread=0.0010 H0rd:Rhat=1.0052,tau=35,N/tau=286,ens-median-spread=8.8958
+   mock: grid MLE Om=0.29975; optimiser Om=0.300000000 H0rd=10000.0000 |Om-0.3|=5.3e-14 PASS (tolerance 1e-6); posterior median 0.3059 (not a criterion)
+C4-MCMC z=1.317 quad-err=4.4e-16 | grid Om 0.3537 +0.1102 -0.0833 (1x vs 2x grid max diff 1.0e-06) | MCMC Om 0.3531 +0.1104 -0.0828 | MCMC-grid median diff -0.0006
+   MCMC Om ours 0.3531 +0.1104 -0.0828 vs paper 0.345 +0.11 -0.078: Δ=+0.0081 (tol 0.0275) PASS; err ratios +1.00 -1.06 PASS
+   Om:Rhat=1.0061,tau=53,N/tau=187,ens-median-spread=0.0022 H0rd:Rhat=1.0059,tau=53,N/tau=190,ens-median-spread=19.8284
+   mock: grid MLE Om=0.29975; optimiser Om=0.300000000 H0rd=10000.0000 |Om-0.3|=2.9e-13 PASS (tolerance 1e-6); posterior median 0.3151 (not a criterion)
+C4-MCMC z=2.33 quad-err=6.7e-16 | grid Om 0.3732 +0.0900 -0.0703 (1x vs 2x grid max diff 2.4e-06) | MCMC Om 0.3733 +0.0900 -0.0704 | MCMC-grid median diff +0.0001
+   MCMC Om ours 0.3733 +0.0900 -0.0704 vs paper 0.375 +0.088 -0.069: Δ=-0.0017 (tol 0.0173) PASS; err ratios +1.02 -1.02 PASS
+   Om:Rhat=1.0035,tau=66,N/tau=153,ens-median-spread=0.0014 H0rd:Rhat=1.0031,tau=64,N/tau=155,ens-median-spread=14.3060
+   mock: grid MLE Om=0.30025; optimiser Om=0.300000000 H0rd=10000.0000 |Om-0.3|=3.5e-13 PASS (tolerance 1e-6); posterior median 0.3095 (not a criterion)

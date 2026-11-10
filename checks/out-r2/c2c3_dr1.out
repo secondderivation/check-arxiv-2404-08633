@@ -1,0 +1,22 @@
+C2 release=dr1 anisotropic bins: [0.51, 0.706, 0.93, 1.317, 2.33]
+C2 z=0.51: DM/rd=13.620±0.252 DH/rd=20.983±0.611 r=-0.445 | Om(at mean ratio)=0.6465 mean=0.6681 median=0.6426 +0.2228 -0.1702 | no-root draws 0 (above Om=50: 0) | max reinsertion residual (all draws) 4.4e-16
+   clip-no-root median=0.6426 +0.2228 -0.1702 | outside [0,1]: 0.0637 | drop-outside median=0.6278 +0.1878 -0.1617 | clip-to-[0,1] median=0.6426 +0.2228 -0.1702
+   paper 0.65 +0.21 -0.17: median Δ=-0.0074 (tol ±0.0425) central PASS [mean Δ=+0.0181 PASS]; errors ratio +1.06 -1.00 PASS
+C2 z=0.706: DM/rd=16.846±0.319 DH/rd=20.079±0.595 r=-0.420 | Om(at mean ratio)=0.2217 mean=0.2299 median=0.2212 +0.0842 -0.0676 | no-root draws 0 (above Om=50: 0) | max reinsertion residual (all draws) 6.7e-16
+   clip-no-root median=0.2212 +0.0842 -0.0676 | outside [0,1]: 0.0000 | drop-outside median=0.2212 +0.0842 -0.0676 | clip-to-[0,1] median=0.2212 +0.0842 -0.0676
+   paper 0.21 +0.082 -0.068: median Δ=+0.0112 (tol ±0.0205) central PASS [mean Δ=+0.0199 PASS]; errors ratio +1.03 -0.99 PASS
+C2 z=0.93: DM/rd=21.708±0.282 DH/rd=17.876±0.346 r=-0.389 | Om(at mean ratio)=0.2685 mean=0.2716 median=0.2676 +0.0522 -0.0451 | no-root draws 0 (above Om=50: 0) | max reinsertion residual (all draws) 8.9e-16
+   clip-no-root median=0.2676 +0.0522 -0.0451 | outside [0,1]: 0.0000 | drop-outside median=0.2676 +0.0522 -0.0451 | clip-to-[0,1] median=0.2676 +0.0522 -0.0451
+   paper 0.268 +0.052 -0.045: median Δ=-0.0004 (tol ±0.0112) central PASS [mean Δ=+0.0036 PASS]; errors ratio +1.00 -1.00 PASS
+C2 z=1.317: DM/rd=27.787±0.690 DH/rd=13.824±0.422 r=-0.444 | Om(at mean ratio)=0.3356 mean=0.3478 median=0.3348 +0.1040 -0.0783 | no-root draws 0 (above Om=50: 0) | max reinsertion residual (all draws) 1.9e-14
+   clip-no-root median=0.3348 +0.1040 -0.0783 | outside [0,1]: 0.0000 | drop-outside median=0.3348 +0.1040 -0.0783 | clip-to-[0,1] median=0.3348 +0.1040 -0.0783
+   paper 0.33 +0.1 -0.076: median Δ=+0.0048 (tol ±0.0250) central PASS [mean Δ=+0.0178 PASS]; errors ratio +1.04 -1.03 PASS
+C2 z=2.33: DM/rd=39.708±0.943 DH/rd=8.523±0.171 r=-0.478 | Om(at mean ratio)=0.3606 mean=0.3704 median=0.3611 +0.0862 -0.0673 | no-root draws 0 (above Om=50: 0) | max reinsertion residual (all draws) 9.3e-14
+   clip-no-root median=0.3611 +0.0862 -0.0673 | outside [0,1]: 0.0000 | drop-outside median=0.3611 +0.0862 -0.0673 | clip-to-[0,1] median=0.3611 +0.0862 -0.0673
+   paper 0.362 +0.084 -0.066: median Δ=-0.0009 (tol ±0.0165) central PASS [mean Δ=+0.0084 PASS]; errors ratio +1.03 -1.02 PASS
+C3 dr1 seed=1: P(Om<0.322) = 0.0163 ± 0.0006 (binomial) -> 2.14 sigma one-sided, 2.40 sigma two-sided; P(Om<0.315) = 0.0141; no-root 0
+C3 dr1 seed=2: P(Om<0.322) = 0.0153 ± 0.0005 (binomial) -> 2.16 sigma one-sided, 2.43 sigma two-sided; P(Om<0.315) = 0.0135; no-root 0
+C3 dr1 seed=3: P(Om<0.322) = 0.0156 ± 0.0006 (binomial) -> 2.16 sigma one-sided, 2.42 sigma two-sided; P(Om<0.315) = 0.0135; no-root 0
+C3 dr1 delta-method: ratio=0.6491±0.0265, ratio(0.322)=0.5950, P=0.0208 -> 2.04 sigma one-sided
+C3 dr1 exact Gaussian tail P(Om<0.315) = 0.01341 -> 2.214 sigma one-sided, 2.473 two-sided
+C3 dr1 exact Gaussian tail P(Om<0.322) = 0.01561 -> 2.154 sigma one-sided, 2.418 two-sided; rounds to 2.2 (criterion: 2.2) PASS, p in [0.011, 0.019] PASS

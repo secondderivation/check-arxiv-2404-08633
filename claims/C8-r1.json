@@ -1,0 +1,11 @@
+{
+  "id": "C8",
+  "kind": "numeric",
+  "location": "Sec. III, TeX l.258-269, Fig. 4",
+  "method": "MCMC of w0waCDM on DESI DR1 alone with the printed priors, with and without the z=0.51 LRG bin",
+  "text": "DESI alone: w0 = -0.56 +0.27 -0.38 with LRG 0.51, w0 = -0.98 +0.43 -0.42 without; 'any hint of dynamical DE in DESI data is driven by the LRG data'.",
+  "rests_on": "Second sentence of the abstract (headline)",
+  "revision": 1,
+  "version": 3,
+  "committed_before_run": true
+}

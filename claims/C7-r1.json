@@ -1,0 +1,11 @@
+{
+  "id": "C7",
+  "kind": "numeric",
+  "location": "Table II, TeX l.192-210; abstract l.130",
+  "method": "fit flat ΛCDM to the three redshift bins (anisotropic + isotropic BAO); recompute bin-to-bin shifts",
+  "text": "Binned Ωm: 0.1<z<0.6: 0.459 +0.12 -0.098; 0.6<z<1.1: 0.231 +0.036 -0.033; 1.1<z<4.16: 0.324 +0.044 -0.038; shifts ~2.2σ down and ~1.8σ up (the abstract's ~1.8σ increasing trend).",
+  "rests_on": "Secondary claim of the abstract",
+  "revision": 1,
+  "version": 3,
+  "committed_before_run": true
+}

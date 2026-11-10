@@ -1,0 +1,14 @@
+C9 dr1 [2-dp z] global flat-ΛCDM fit: chi2min=13.56, dof=10, PTE=0.194 -> 1.30 sigma (two-sided equivalent)
+   nested [Om in (0,1)] (a) 3 Om, common H0rd: Δχ² = 1.244 for 2 extra parameters, p = 0.537 (0.62 sigma two-sided equivalent); fitted Om=[0.3161, 0.2878, 0.2939], H0rd=10205.0
+   nested [Om in (0,1)] (b) 3 (Om, H0rd) pairs: Δχ² = 6.330 for 4 extra parameters, p = 0.176 (1.35 sigma two-sided equivalent); fitted Om=[0.4419, 0.2281, 0.3192], H0rd=[9674.2726, 10711.0386, 9912.4522]
+   nested [Om in (0,1)] null: χ²min = 13.556, Om=0.2885, H0rd=10250.8
+   nested [Om in (-0.25,3), E^2>0] (a) 3 Om, common H0rd: Δχ² = 1.244 for 2 extra parameters, p = 0.537 (0.62 sigma two-sided equivalent); fitted Om=[0.3161, 0.2878, 0.2939], H0rd=10205.0
+   nested [Om in (-0.25,3), E^2>0] (b) 3 (Om, H0rd) pairs: Δχ² = 6.330 for 4 extra parameters, p = 0.176 (1.35 sigma two-sided equivalent); fitted Om=[0.4419, 0.2281, 0.3192], H0rd=[9674.2726, 10711.0386, 9912.4522]
+   nested [Om in (-0.25,3), E^2>0] null: χ²min = 13.556, Om=0.2885, H0rd=10250.8
+C9 dr1 [3-dp z] global flat-ΛCDM fit: chi2min=12.74, dof=10, PTE=0.239 -> 1.18 sigma (two-sided equivalent)
+   nested [Om in (0,1)] (a) 3 Om, common H0rd: Δχ² = 1.171 for 2 extra parameters, p = 0.557 (0.59 sigma two-sided equivalent); fitted Om=[0.3294, 0.2990, 0.3015], H0rd=10114.5
+   nested [Om in (0,1)] (b) 3 (Om, H0rd) pairs: Δχ² = 7.481 for 4 extra parameters, p = 0.113 (1.59 sigma two-sided equivalent); fitted Om=[0.4896, 0.2327, 0.3205], H0rd=[9470.6079, 10662.6168, 9898.9416]
+   nested [Om in (0,1)] null: χ²min = 12.741, Om=0.2939, H0rd=10193.7
+   nested [Om in (-0.25,3), E^2>0] (a) 3 Om, common H0rd: Δχ² = 1.171 for 2 extra parameters, p = 0.557 (0.59 sigma two-sided equivalent); fitted Om=[0.3294, 0.2990, 0.3015], H0rd=10114.5
+   nested [Om in (-0.25,3), E^2>0] (b) 3 (Om, H0rd) pairs: Δχ² = 7.481 for 4 extra parameters, p = 0.113 (1.59 sigma two-sided equivalent); fitted Om=[0.4896, 0.2327, 0.3205], H0rd=[9470.6079, 10662.6168, 9898.9416]
+   nested [Om in (-0.25,3), E^2>0] null: χ²min = 12.741, Om=0.2939, H0rd=10193.7

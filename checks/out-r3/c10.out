@@ -1,0 +1,29 @@
+C10 C4 wide prior z=0.51: Om 0.68190 +0.22874 -0.17849 -> 2x 0.68190 +0.22874 -0.17849 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 6.0e-07, H0rd 4.5e-62
+C10 C4 wide prior z=0.706: Om 0.23429 +0.08954 -0.07205 -> 2x 0.23429 +0.08954 -0.07205 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 5.7e-17, H0rd 4.2e-40
+C10 C4 wide prior z=0.93: Om 0.27379 +0.05273 -0.04549 -> 2x 0.27379 +0.05273 -0.04549 | worst shift 0.0001 x error (criterion < 0.025) PASS | edge density Om 1.5e-36, H0rd 2.7e-95
+C10 C4 wide prior z=1.317: Om 0.35374 +0.11020 -0.08327 -> 2x 0.35374 +0.11020 -0.08326 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 2.5e-11, H0rd 9.7e-27
+C10 C4 wide prior z=2.33: Om 0.37322 +0.08999 -0.07032 -> 2x 0.37322 +0.08998 -0.07031 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 8.4e-15, H0rd 2.4e-27
+C10 C5 dr1 2-dp all: Om 0.28912 +0.01464 -0.01384 -> 2x 0.28912 +0.01464 -0.01384 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 1.2e-12, H0rd 4.6e-25
+C10 C5 dr1 2-dp no z=0.51: Om 0.28578 +0.01587 -0.01493 -> 2x 0.28578 +0.01587 -0.01493 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 1.8e-10, H0rd 1.0e-17
+C10 C5 dr1 3-dp all: Om 0.29455 +0.01499 -0.01416 -> 2x 0.29455 +0.01499 -0.01416 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 1.9e-11, H0rd 4.9e-27
+C10 C5 dr1 3-dp no z=0.51: Om 0.29306 +0.01638 -0.01541 -> 2x 0.29306 +0.01638 -0.01541 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 5.6e-10, H0rd 1.1e-19
+C10 C5 dr2 3-dp all: Om 0.29769 +0.00875 -0.00847 -> 2x 0.29769 +0.00875 -0.00847 | worst shift 0.0001 x error (criterion < 0.025) PASS | edge density Om 4.3e-30, H0rd 3.2e-81
+C10 C5 dr2 3-dp no z=0.51: Om 0.29290 +0.00921 -0.00889 -> 2x 0.29290 +0.00920 -0.00889 | worst shift 0.0001 x error (criterion < 0.025) PASS | edge density Om 4.6e-29, H0rd 4.1e-59
+C10 C7 dr1 2-dp 0.1<z<0.6: Om 0.45701 +0.11907 -0.09929 -> 2x 0.45701 +0.11907 -0.09929 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 1.2e-03, H0rd 1.1e-52
+C10 C7 dr1 2-dp 0.6<z<1.1: Om 0.23112 +0.03653 -0.03253 -> 2x 0.23112 +0.03652 -0.03253 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 1.6e-24, H0rd 9.7e-26
+C10 C7 dr1 2-dp 1.1<z<4.16: Om 0.32356 +0.04362 -0.03747 -> 2x 0.32356 +0.04362 -0.03746 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 1.1e-14, H0rd 3.2e-20
+C10 C7 dr1 3-dp 0.1<z<0.6: Om 0.50575 +0.12707 -0.10591 -> 2x 0.50575 +0.12707 -0.10591 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 4.5e-03, H0rd 3.2e-56
+C10 C7 dr1 3-dp 0.6<z<1.1: Om 0.23575 +0.03705 -0.03298 -> 2x 0.23575 +0.03705 -0.03298 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 5.4e-24, H0rd 1.3e-26
+C10 C7 dr1 3-dp 1.1<z<4.16: Om 0.32486 +0.04386 -0.03766 -> 2x 0.32486 +0.04386 -0.03766 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 1.4e-14, H0rd 2.4e-20
+C10 C7 dr2 3-dp 0.1<z<0.6: Om 0.36228 +0.05906 -0.05307 -> 2x 0.36228 +0.05906 -0.05307 | worst shift 0.0000 x error (criterion < 0.025) PASS | edge density Om 2.8e-12, H0rd 3.8e-174
+C10 C7 dr2 3-dp 0.6<z<1.1: Om 0.28065 +0.02390 -0.02230 -> 2x 0.28065 +0.02390 -0.02230 | worst shift 0.0001 x error (criterion < 0.025) PASS | edge density Om 5.6e-55, H0rd 4.5e-94
+C10 C7 dr2 3-dp 1.1<z<4.16: Om 0.29742 +0.01984 -0.01838 -> 2x 0.29742 +0.01984 -0.01838 | worst shift 0.0001 x error (criterion < 0.025) PASS | edge density Om 1.1e-59, H0rd 1.7e-65
+C10 C9 nested dr1 2-dp model null: best random-start chi2min is +5.0e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6
+C10 C9 nested dr1 2-dp model a: best random-start chi2min is +4.1e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6
+C10 C9 nested dr1 2-dp model b: best random-start chi2min is +2.1e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6
+C10 C9 nested dr1 3-dp model null: best random-start chi2min is +4.1e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6
+C10 C9 nested dr1 3-dp model a: best random-start chi2min is +1.1e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6
+C10 C9 nested dr1 3-dp model b: best random-start chi2min is +3.1e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6
+C10 C9 nested dr2 3-dp model null: best random-start chi2min is +5.2e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6
+C10 C9 nested dr2 3-dp model a: best random-start chi2min is +2.5e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6
+C10 C9 nested dr2 3-dp model b: best random-start chi2min is +5.7e-14 below the reported one (PASS: criterion < 1e-6); 8/8 random starts reach the reported minimum within 1e-6

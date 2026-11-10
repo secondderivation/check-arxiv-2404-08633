@@ -1,0 +1,256 @@
+{
+  "datasets": [
+    {
+      "id": "desi-dr1-bao",
+      "kind": "data",
+      "name": "DESI DR1 BAO distances (Gaussian likelihood, all tracers)",
+      "survey": "DESI",
+      "release": "DR1 (2024)",
+      "role": "same",
+      "role_label": "data the paper used",
+      "used_for": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "value": null,
+      "note": "The paper used DESI's v1 Table 1 (rounded means, 2-decimal z_eff); we used the likelihood files (unrounded, 3-decimal z_eff) and also re-ran with z rounded as the paper did (G26).",
+      "coverage": "0.1 < z < 4.2: BGS, LRG, ELG, QSO, Lyα; 12 numbers (D_V/r_d, D_M/r_d, D_H/r_d) with full covariance",
+      "links": {
+        "landing": "https://data.desi.lbl.gov/doc/releases/dr1/",
+        "papers": [
+          {
+            "label": "DESI DR1 data release paper",
+            "url": "https://arxiv.org/abs/2503.14745"
+          },
+          {
+            "label": "DESI 2024 III: BAO from galaxies and quasars",
+            "url": "https://arxiv.org/abs/2404.03000"
+          },
+          {
+            "label": "DESI 2024 IV: BAO from the Lyman-α forest",
+            "url": "https://arxiv.org/abs/2404.03001"
+          },
+          {
+            "label": "DESI 2024 VI: cosmological constraints",
+            "url": "https://arxiv.org/abs/2404.03002"
+          }
+        ],
+        "files": [
+          {
+            "path": "desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+            "sha256": "dd2873a0b88459a491af3c0c0307ba059f62df9211d5b976760f310565a1be68"
+          },
+          {
+            "path": "desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+            "sha256": "bbafa9074b51cf1a45e0d10e4f37db8c0e80a5d1d1788857abb7fc49fb21abcc"
+          }
+        ],
+        "distribution": "https://github.com/CobayaSampler/bao_data/tree/bb0c1c9009dc76d1391300e169e8df38fd1096db"
+      },
+      "licence": "DESI public data: CC BY 4.0 with a required citation and acknowledgement (sd-research ethics §4.8). The distribution repository has no licence file, so we link and fetch, not copy",
+      "acknowledgement": "This research used data obtained with the Dark Energy Spectroscopic Instrument (DESI). DESI construction and operations is managed by the Lawrence Berkeley National Laboratory. This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of High-Energy Physics, under Contract No. DE–AC02–05CH11231, and by the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility under the same contract. Additional support for DESI was provided by the U.S. National Science Foundation (NSF), Division of Astronomical Sciences under Contract No. AST-0950945 to the NSF’s National Optical-Infrared Astronomy Research Laboratory; the Science and Technology Facilities Council of the United Kingdom; the Gordon and Betty Moore Foundation; the Heising-Simons Foundation; the French Alternative Energies and Atomic Energy Commission (CEA); the National Council of Humanities, Science and Technology of Mexico (CONAHCYT); the Ministry of Science and Innovation of Spain (MICINN), and by the DESI Member Institutions: www.desi.lbl.gov/collaborating-institutions. The DESI collaboration is honored to be permitted to conduct scientific research on I’oligam Du’ag (Kitt Peak), a mountain with particular significance to the Tohono O’odham Nation. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the U.S. National Science Foundation, the U.S. Department of Energy, or any of the listed funding agencies.",
+      "files": [
+        {
+          "path": "desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+          "sha256": "dd2873a0b88459a491af3c0c0307ba059f62df9211d5b976760f310565a1be68",
+          "local": "data/desi-dr1/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt"
+        },
+        {
+          "path": "desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+          "sha256": "bbafa9074b51cf1a45e0d10e4f37db8c0e80a5d1d1788857abb7fc49fb21abcc",
+          "local": "data/desi-dr1/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt"
+        }
+      ]
+    },
+    {
+      "id": "desi-dr2-bao",
+      "kind": "data",
+      "name": "DESI DR2 BAO distances (Gaussian likelihood, all tracers)",
+      "survey": "DESI",
+      "release": "DR2 (2025)",
+      "role": "update",
+      "role_label": "newer release of the paper's data",
+      "used_for": [
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "value": null,
+      "note": "Pre-declared re-test of the abstract's prediction; run only after the DR1 fidelity gate passed.",
+      "coverage": "0.1 < z < 4.2: BGS, LRG, ELG, QSO, Lyα; 13 numbers with full covariance",
+      "links": {
+        "landing": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/README.html",
+        "papers": [
+          {
+            "label": "DESI DR2 Results II: BAO and cosmological constraints",
+            "url": "https://arxiv.org/abs/2503.14738"
+          },
+          {
+            "label": "DESI DR2 Results I: BAO from the Lyman-α forest",
+            "url": "https://arxiv.org/abs/2503.14739"
+          }
+        ],
+        "files": [
+          {
+            "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+            "sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585"
+          },
+          {
+            "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+            "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+          }
+        ],
+        "distribution": "https://github.com/CobayaSampler/bao_data/tree/bb0c1c9009dc76d1391300e169e8df38fd1096db"
+      },
+      "licence": "DESI public data: CC BY 4.0 with a required citation and acknowledgement (sd-research ethics §4.8). The distribution repository has no licence file, so we link and fetch, not copy",
+      "acknowledgement": "This research used data obtained with the Dark Energy Spectroscopic Instrument (DESI). DESI construction and operations is managed by the Lawrence Berkeley National Laboratory. This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of High-Energy Physics, under Contract No. DE–AC02–05CH11231, and by the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility under the same contract. Additional support for DESI was provided by the U.S. National Science Foundation (NSF), Division of Astronomical Sciences under Contract No. AST-0950945 to the NSF’s National Optical-Infrared Astronomy Research Laboratory; the Science and Technology Facilities Council of the United Kingdom; the Gordon and Betty Moore Foundation; the Heising-Simons Foundation; the French Alternative Energies and Atomic Energy Commission (CEA); the National Council of Humanities, Science and Technology of Mexico (CONAHCYT); the Ministry of Science and Innovation of Spain (MICINN), and by the DESI Member Institutions: www.desi.lbl.gov/collaborating-institutions. The DESI collaboration is honored to be permitted to conduct scientific research on I’oligam Du’ag (Kitt Peak), a mountain with particular significance to the Tohono O’odham Nation. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the U.S. National Science Foundation, the U.S. Department of Energy, or any of the listed funding agencies.",
+      "files": [
+        {
+          "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+          "sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+          "local": "data/desi-dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt"
+        },
+        {
+          "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+          "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+          "local": "data/desi-dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt"
+        }
+      ]
+    },
+    {
+      "id": "planck-2018-lcdm",
+      "kind": "published_value",
+      "name": "Planck 2018 ΛCDM parameters",
+      "survey": "Planck",
+      "release": "PR3 (2018)",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C3",
+        "C4",
+        "C6"
+      ],
+      "value": "Ωm = 0.315 ± 0.007",
+      "note": null,
+      "coverage": null,
+      "links": {
+        "landing": "https://pla.esac.esa.int/",
+        "papers": [
+          {
+            "label": "Planck 2018 results VI: cosmological parameters",
+            "url": "https://arxiv.org/abs/1807.06209"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    },
+    {
+      "id": "pantheon-plus-sn",
+      "kind": "published_value",
+      "name": "Pantheon+ supernovae",
+      "survey": "Pantheon+",
+      "release": "2022",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C6"
+      ],
+      "value": "Ωm = 0.334 ± 0.018",
+      "note": null,
+      "coverage": null,
+      "links": {
+        "landing": "https://github.com/PantheonPlusSH0ES/DataRelease",
+        "papers": [
+          {
+            "label": "The Pantheon+ analysis: cosmological constraints",
+            "url": "https://arxiv.org/abs/2202.04077"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    },
+    {
+      "id": "union3-sn",
+      "kind": "published_value",
+      "name": "Union3 supernovae",
+      "survey": "Union3",
+      "release": "2023",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C6"
+      ],
+      "value": "Ωm = 0.356 +0.028 −0.026",
+      "note": null,
+      "coverage": null,
+      "links": {
+        "landing": "https://arxiv.org/abs/2311.12098",
+        "papers": [
+          {
+            "label": "Union through UNITY: cosmology with 2,000 SNe",
+            "url": "https://arxiv.org/abs/2311.12098"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    },
+    {
+      "id": "des-sn5yr",
+      "kind": "published_value",
+      "name": "DES 5-year supernovae",
+      "survey": "DES",
+      "release": "SN5YR (2024)",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C5",
+        "C6",
+        "C9"
+      ],
+      "value": "Ωm = 0.352 ± 0.017",
+      "note": null,
+      "coverage": null,
+      "links": {
+        "landing": "https://github.com/des-science/DES-SN5YR/releases/tag/1.3",
+        "papers": [
+          {
+            "label": "DES: cosmology results with ~1,500 new high-redshift SNe Ia (5-year data)",
+            "url": "https://arxiv.org/abs/2401.02929"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    }
+  ]
+}

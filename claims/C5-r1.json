@@ -1,0 +1,11 @@
+{
+  "id": "C5",
+  "kind": "numeric",
+  "location": "TeX l.212-214 and footnote l.212",
+  "method": "fit all 12 DESI DR1 BAO numbers (full covariance) with flat ΛCDM; with 2-decimal and 3-decimal z_eff; with and without the z=0.51 bin",
+  "text": "All DESI DR1 BAO: Ωm = 0.290 +0.015 -0.014 (MLE 0.289); the shift from DESI's 0.295 is due to z_eff rounding; without LRG 0.51: Ωm = 0.287 +0.016 -0.015 (MLE 0.286).",
+  "rests_on": "The tensions in C6",
+  "revision": 1,
+  "version": 3,
+  "committed_before_run": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "C6",
+  "kind": "numeric",
+  "location": "TeX l.158, l.212, l.214",
+  "method": "recompute each σ from the printed numbers, then from our C4/C5 numbers",
+  "text": "Tensions: LRG 0.51 vs Planck ~2.1σ, vs Pantheon+ ~2σ; full DESI vs Planck, Pantheon+, Union3, DES ~1.5, 1.9, 2.2, 2.7σ; without LRG 0.51 vs DES ~2.8σ.",
+  "rests_on": "Discussion",
+  "revision": 1,
+  "version": 3,
+  "committed_before_run": true
+}
