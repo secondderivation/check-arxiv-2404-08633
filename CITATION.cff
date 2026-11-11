@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Cite the original paper first. If you use this check, cite it as below."
 title: "Check of arXiv:2404.08633v3: Does DESI 2024 Confirm ΛCDM?"
-version: "0.1.0"
+version: "0.2.0-rc3"
 authors:
   - name: "Second Derivation"
 license: BSD-3-Clause
